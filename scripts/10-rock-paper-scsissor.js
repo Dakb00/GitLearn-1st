@@ -13,7 +13,7 @@ function playGame(playerMove) {
 
   if (playerMove === 'scissors') {
     if (computerMove === 'rock') {
-      result = 'loser';
+      result = 'loser, don\'t use scissor';
     } else if (computerMove === 'paper') {
       result = 'winner';
     } else if (computerMove === 'scissors') {
