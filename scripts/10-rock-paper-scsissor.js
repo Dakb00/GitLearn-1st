@@ -31,7 +31,7 @@ function playGame(playerMove) {
     if (computerMove === 'rock') {
       result = 'tie';
     } else if (computerMove === 'paper') {
-      result = 'loser';
+      result = 'loser, dumb as a rock';
     } else if (computerMove === 'scissors') {
       result = 'winner';
     }
