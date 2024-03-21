@@ -25,7 +25,7 @@ function playGame(playerMove) {
     } else if (computerMove === 'paper') {
       result = 'tie';
     } else if (computerMove === 'scissors') {
-      result = 'loser';
+      result = 'loser, it was a bad idea to choose paper';
     }
   } else if (playerMove === 'rock') {
     if (computerMove === 'rock') {
